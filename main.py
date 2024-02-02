@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain.llms import OpenAI
+from langchain_openai import OpenAI
 from langchain import PromptTemplate
 
 st.set_page_config(
